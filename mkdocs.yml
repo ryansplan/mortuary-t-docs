@@ -1,0 +1,50 @@
+site_name: Mortuary T Documentation Portfolio
+site_description: A sanitized docs-as-code and business-analysis portfolio
+site_url: https://ryansplan.github.io/mortuary-t-docs/
+repo_url: https://github.com/ryansplan/mortuary-t-docs
+repo_name: ryansplan/mortuary-t-docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+  palette:
+    primary: blue grey
+    accent: teal
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Portfolio overview: portfolio-overview.md
+  - Product documentation:
+      - Getting started: getting-started/index.md
+  - Developer documentation:
+      - Overview: developer-guide/index.md
+  - Business analysis:
+      - Artifact index: business-analysis/index.md
+  - Documentation quality:
+      - Quality workflow: quality/index.md
+      - Style guide: style-guide.md
+  - Contributing: contributing.md
+  - Security and privacy: security.md
+
