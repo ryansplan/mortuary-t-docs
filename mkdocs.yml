@@ -37,7 +37,9 @@ nav:
   - Home: index.md
   - Portfolio overview: portfolio-overview.md
   - Product documentation:
-      - Getting started: getting-started/index.md
+      - Getting started:
+          - First Call: getting-started/index.md
+          - Property inventory: getting-started/property-inventory.md
   - Developer documentation:
       - Overview: developer-guide/index.md
   - Business analysis:

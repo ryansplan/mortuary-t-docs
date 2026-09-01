@@ -111,3 +111,8 @@ remains saved in Compliance.
 - Property Inventory may be completed during or after First Call.
 - Locking First Call is a separate state transition and is outside this
   procedure.
+
+## Continue the case workflow
+
+After saving First Call, continue by
+[recording and sending a Property Inventory](property-inventory.md).
