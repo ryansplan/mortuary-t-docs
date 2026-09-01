@@ -96,4 +96,8 @@ in the Case Packet.
 - Sharing does not complete First Call or send the final First Call summary.
 - A Property Inventory must have a **Sent** status to be included in the Case
   Packet.
-  
+
+## Continue the case workflow
+
+After sending Property Inventory to Compliance, continue by
+[collecting a Witness Signature](witness-signature.md).
