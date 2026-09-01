@@ -40,6 +40,7 @@ nav:
       - Getting started:
           - First Call: getting-started/index.md
           - Property inventory: getting-started/property-inventory.md
+          - Witness signature: getting-started/witness-signature.md
   - Developer documentation:
       - Overview: developer-guide/index.md
   - Business analysis:
