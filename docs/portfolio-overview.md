@@ -14,15 +14,15 @@ workflow modeling, user acceptance testing, and release readiness.
 - Testers who need acceptance criteria and repeatable UAT scenarios
 - Hiring teams evaluating documentation and analysis capabilities
 
-## Planned case-study artifacts
+## Case-study artifacts
 
 | Artifact | Capability demonstrated | Status |
 | --- | --- | --- |
-| Getting-started guide | User-centered technical writing | Planned |
+| Getting-started guide | User-centered technical writing | Complete |
 | Sanitized API example | API reference and developer guidance | Planned |
 | Business-process flow | Process analysis and stakeholder communication | Planned |
 | UML sequence diagram | System behavior and technical analysis | Planned |
-| Requirements and UAT matrix | Traceability and release validation | Planned |
+| Requirements and UAT package | Traceability and release validation | Complete |
 
 ## Scope boundary
 
