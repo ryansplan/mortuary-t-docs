@@ -109,8 +109,11 @@ remains saved in Compliance.
   Call to Compliance and opening the device sharing options.
 - The optional recipient on the summary is used only for the compliance log.
 - Property Inventory may be completed during or after First Call.
-- Locking First Call is a separate state transition and is outside this
-  procedure.
+- A locked First Call is read-only until the Case Owner reopens it.
+- A transporter or collaborator cannot close, reopen, or perform final First
+  Call actions reserved for the Case Owner.
+- Locking and reopening First Call are separate state transitions and are
+  outside this procedure.
 
 ## Continue the case workflow
 

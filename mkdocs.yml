@@ -46,9 +46,11 @@ nav:
       - Overview: developer-guide/index.md
   - Business analysis:
       - Artifact index: business-analysis/index.md
+      - First Call requirements: business-analysis/first-call-requirements.md
+      - Requirements traceability: business-analysis/first-call-traceability.md
+      - UAT plan and results: business-analysis/first-call-uat.md
   - Documentation quality:
       - Quality workflow: quality/index.md
       - Style guide: style-guide.md
   - Contributing: contributing.md
   - Security and privacy: security.md
-
