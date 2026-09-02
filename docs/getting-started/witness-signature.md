@@ -103,4 +103,8 @@ the First Call or Property Inventory status.
 - Sharing a signature does not change its collected status.
 - Witness Signature retains a status independent of First Call and Property
   Inventory.
-  
+
+## Continue the case workflow
+
+After collecting the witness signature, continue by
+[reviewing Compliance and exporting case documents](compliance-exports.md).
