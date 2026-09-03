@@ -21,6 +21,7 @@ Business need
 | Artifact | What it demonstrates |
 | --- | --- |
 | [First Call business requirements](first-call-requirements.md) | Business need, scope, actors, requirements, business rules, and testable acceptance criteria |
+| [First Call cross-functional workflow](first-call-swimlane.md) | Actor responsibilities, decisions, system handoffs, exception paths, and process boundaries |
 | [First Call requirements traceability](first-call-traceability.md) | Requirement-to-documentation and requirement-to-test coverage |
 | [First Call UAT plan and results](first-call-uat.md) | Test planning, execution evidence, defect management, retesting, and release recommendation |
 

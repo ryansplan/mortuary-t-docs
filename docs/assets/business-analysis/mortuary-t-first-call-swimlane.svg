@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1632" height="1056" viewBox="0 0 1632 1056" role="img" aria-labelledby="title desc">
+<title id="title">Mortuary T First Call cross-functional workflow</title>
+<desc id="desc">A four-lane swimlane showing how the Case Owner, Mortuary T, the Compliance Record, and the Device Sharing App create a case, capture and review First Call information, save it to Compliance before sharing, hand it to an external app, and verify the saved record.</desc>
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="strokeWidth">
+<path d="M0,0 L10,4 L0,8 z" fill="#8A98A6"/>
+</marker>
+<filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+<feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#17324D" flood-opacity="0.14"/>
+</filter>
+</defs>
+<rect width="1632" height="1056" fill="#FFFFFF"/>
+<text text-anchor="start" font-family="Aptos, Arial, sans-serif" font-size="27" font-weight="700" fill="#17324D"><tspan x="40" y="50.0">First Call: Create, Save to Compliance, and Share</tspan></text>
+<text text-anchor="start" font-family="Aptos, Arial, sans-serif" font-size="15" font-weight="500" fill="#5C6873"><tspan x="40" y="82.0">Mortuary T cross-functional workflow | Sanitized portfolio artifact</tspan></text>
+<rect x="40" y="105" width="1552" height="34" rx="8" fill="#EAF2F7"/>
+<text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="12" font-weight="700" fill="#2E5D7B"><tspan x="816" y="127.0">FLOW 1 Create case → 2 Capture and review → 3 Save to Compliance → 4 External handoff → 5 Verify</tspan></text>
+<rect x="40" y="148" width="360" height="886" fill="#FFFFFF" stroke="#CBD4DC"/>
+<rect x="40" y="148" width="360" height="48" fill="#17324D"/>
+<text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF"><tspan x="220.0" y="179.0">Case Owner</tspan></text>
+<rect x="400" y="148" width="380" height="886" fill="#F7F9FB" stroke="#CBD4DC"/>
+<rect x="400" y="148" width="380" height="48" fill="#147D7E"/>
+<text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF"><tspan x="590.0" y="179.0">Mortuary T</tspan></text>
+<rect x="780" y="148" width="365" height="886" fill="#FFFFFF" stroke="#CBD4DC"/>
+<rect x="780" y="148" width="365" height="48" fill="#2E5D7B"/>
+<text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF"><tspan x="962.5" y="179.0">Compliance Record</tspan></text>
+<rect x="1145" y="148" width="447" height="886" fill="#F7F9FB" stroke="#CBD4DC"/>
+<rect x="1145" y="148" width="447" height="48" fill="#6B5B95"/>
+<text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF"><tspan x="1368.5" y="179.0">Device Sharing App</tspan></text>
+<rect x="120" y="216" width="200" height="48" rx="24" fill="#E8F4EE" stroke="#2E7D5A" stroke-width="2.4"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="15" font-weight="500" fill="#1E2A35"><tspan x="220.0" y="245.0">No active case</tspan></text>
+<rect x="98" y="292" width="244" height="58" rx="12" fill="#FFFFFF" stroke="#17324D" stroke-width="2"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="15" font-weight="500" fill="#1E2A35"><tspan x="220.0" y="326.0">Select Start New Case</tspan></text>
+<rect x="450" y="284" width="280" height="74" rx="12" fill="#E7F4F1" stroke="#147D7E" stroke-width="2"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="15" font-weight="500" fill="#1E2A35"><tspan x="590.0" y="317.0">Generate Case Ref; assign Case</tspan><tspan x="590.0" y="335.0">Owner; set First Call to Draft</tspan></text>
+<rect x="98" y="386" width="244" height="58" rx="12" fill="#FFFFFF" stroke="#17324D" stroke-width="2"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="15" font-weight="500" fill="#1E2A35"><tspan x="220.0" y="420.0">Select Open First Call</tspan></text>
+<rect x="82" y="476" width="276" height="86" rx="12" fill="#FFFFFF" stroke="#17324D" stroke-width="2"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="15" font-weight="500" fill="#1E2A35"><tspan x="220.0" y="506.0">Record the three-step First Call:</tspan><tspan x="220.0" y="524.0">deceased, location, transport, call,</tspan><tspan x="220.0" y="542.0">and notes</tspan></text>
+<rect x="450" y="482" width="280" height="74" rx="12" fill="#E7F4F1" stroke="#147D7E" stroke-width="2"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="15" font-weight="500" fill="#1E2A35"><tspan x="590.0" y="515.0">Keep draft and form state linked to</tspan><tspan x="590.0" y="533.0">the active Case Ref</tspan></text>
+<rect x="98" y="602" width="244" height="58" rx="12" fill="#FFFFFF" stroke="#17324D" stroke-width="2"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="15" font-weight="500" fill="#1E2A35"><tspan x="220.0" y="636.0">Review First Call summary</tspan></text>
+<polygon points="220,672.0 330.0,718 220,764.0 110.0,718" fill="#FFF4D6" stroke="#C98A16" stroke-width="2.4"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="14" font-weight="600" fill="#1E2A35"><tspan x="220" y="723.0">Information correct?</tspan></text>
+<rect x="78" y="798" width="170" height="58" rx="12" fill="#FAECEC" stroke="#A94B4B" stroke-width="2"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="14" font-weight="500" fill="#1E2A35"><tspan x="163.0" y="832.0">Select Edit First Call</tspan></text>
+<rect x="282" y="798" width="100" height="58" rx="12" fill="#FFFFFF" stroke="#17324D" stroke-width="2"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="14" font-weight="500" fill="#1E2A35"><tspan x="332.0" y="832.0">Correct details</tspan></text>
+<rect x="455" y="682" width="270" height="72" rx="12" fill="#E7F4F1" stroke="#147D7E" stroke-width="2"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="15" font-weight="500" fill="#1E2A35"><tspan x="590.0" y="714.0">Select Save &amp; Share First Call</tspan><tspan x="590.0" y="732.0">Summary</tspan></text>
+<polygon points="590,788.0 698.0,836 590,884.0 482.0,836" fill="#FFF4D6" stroke="#C98A16" stroke-width="2.4"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="14" font-weight="600" fill="#1E2A35"><tspan x="590" y="832.5">Continue from</tspan><tspan x="590" y="849.5">confirmation?</tspan></text>
+<rect x="418" y="900" width="156" height="52" rx="12" fill="#FAECEC" stroke="#A94B4B" stroke-width="2"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="13" font-weight="500" fill="#1E2A35"><tspan x="496.0" y="923.0">Cancel: return to</tspan><tspan x="496.0" y="939.0">summary; no save</tspan></text>
+<rect x="624" y="900" width="140" height="52" rx="12" fill="#E7F4F1" stroke="#147D7E" stroke-width="2"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="13" font-weight="500" fill="#1E2A35"><tspan x="694.0" y="923.0">Save First Call</tspan><tspan x="694.0" y="939.0">before sharing</tspan></text>
+<rect x="818" y="884" width="288" height="70" rx="12" fill="#EAF2F7" stroke="#2E5D7B" stroke-width="2"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="14" font-weight="500" fill="#1E2A35"><tspan x="962.0" y="907.0">Store the case-linked First Call;</tspan><tspan x="962.0" y="924.0">status is available for Compliance</tspan><tspan x="962.0" y="941.0">review</tspan></text>
+<rect x="1190" y="666" width="356" height="76" rx="12" fill="#F0ECF8" stroke="#6B5B95" stroke-width="2"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="15" font-weight="500" fill="#1E2A35"><tspan x="1368.0" y="700.0">Open device sharing options; user selects</tspan><tspan x="1368.0" y="718.0">the actual recipient</tspan></text>
+<polygon points="1368,778.0 1494.0,826 1368,874.0 1242.0,826" fill="#FFF4D6" stroke="#C98A16" stroke-width="2.4"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="14" font-weight="600" fill="#1E2A35"><tspan x="1368" y="822.5">Send or cancel in</tspan><tspan x="1368" y="839.5">selected app?</tspan></text>
+<rect x="1192" y="902" width="352" height="52" rx="12" fill="#F0ECF8" stroke="#6B5B95" stroke-width="2" stroke-dasharray="7 5"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="14" font-weight="500" fill="#1E2A35"><tspan x="1368.0" y="933.0">Mortuary T does not confirm delivery</tspan></text>
+<rect x="822" y="976" width="280" height="44" rx="12" fill="#EAF2F7" stroke="#2E5D7B" stroke-width="2"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="14" font-weight="500" fill="#1E2A35"><tspan x="962.0" y="1003.0">First Call remains saved</tspan></text>
+<rect x="420" y="964" width="340" height="60" rx="12" fill="#E7F4F1" stroke="#147D7E" stroke-width="2"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="14" font-weight="500" fill="#1E2A35"><tspan x="590.0" y="990.5">On return: show Share Action Completed; set</tspan><tspan x="590.0" y="1007.5">First Call to Needs Review; case is Current</tspan></text>
+<rect x="84" y="970" width="282" height="54" rx="27" fill="#E8F4EE" stroke="#2E7D5A" stroke-width="2.4"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="15" font-weight="500" fill="#1E2A35"><tspan x="225.0" y="993.0">Verify via View in</tspan><tspan x="225.0" y="1011.0">Compliance</tspan></text>
+<path d="M220 264 L220 292" fill="none" stroke="#8A98A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M342 321 L450 321" fill="none" stroke="#8A98A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M590 358 L590 372 L220 372 L220 386" fill="none" stroke="#8A98A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M220 444 L220 476" fill="none" stroke="#8A98A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M358 519 L450 519" fill="none" stroke="#8A98A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M590 556 L590 578 L220 578 L220 602" fill="none" stroke="#8A98A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M220 660 L220 672" fill="none" stroke="#8A98A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M330 718 L455 718" fill="none" stroke="#8A98A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="13" font-weight="700" fill="#2E7D5A"><tspan x="385" y="706.0">YES</tspan></text>
+<path d="M220 764 L220 798" fill="none" stroke="#8A98A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text text-anchor="start" font-family="Aptos, Arial, sans-serif" font-size="13" font-weight="700" fill="#A94B4B"><tspan x="237" y="786.0">NO</tspan></text>
+<path d="M248 827 L282 827" fill="none" stroke="#8A98A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M332 798 L332 780 L52 780 L52 631 L98 631" fill="none" stroke="#8A98A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M590 754 L590 788" fill="none" stroke="#8A98A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M536 875 L496 900" fill="none" stroke="#8A98A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="13" font-weight="700" fill="#A94B4B"><tspan x="494" y="876.0">CANCEL</tspan></text>
+<path d="M644 875 L694 900" fill="none" stroke="#8A98A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="13" font-weight="700" fill="#2E7D5A"><tspan x="690" y="876.0">CONTINUE</tspan></text>
+<path d="M764 926 L818 926" fill="none" stroke="#8A98A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M962 884 L962 770 L1168 770 L1168 704 L1190 704" fill="none" stroke="#8A98A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M1368 742 L1368 778" fill="none" stroke="#8A98A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M1368 874 L1368 902" fill="none" stroke="#8A98A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text text-anchor="start" font-family="Aptos, Arial, sans-serif" font-size="13" font-weight="700" fill="#6B5B95"><tspan x="1383" y="892.0">EITHER</tspan></text>
+<path d="M1192 928 L1122 928 L1122 998 L1102 998" fill="none" stroke="#8A98A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M822 998 L760 998" fill="none" stroke="#8A98A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M420 994 L366 994" fill="none" stroke="#8A98A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="798" y="210" width="328" height="118" rx="12" fill="#FFFDF7" stroke="#C98A16" stroke-width="2" stroke-dasharray="7 5"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="13" font-weight="500" fill="#1E2A35"><tspan x="962.0" y="250.0">Business rule: Property Inventory and</tspan><tspan x="962.0" y="266.0">Witness Signature are independent</tspan><tspan x="962.0" y="282.0">activities; this workflow does not change</tspan><tspan x="962.0" y="298.0">their statuses.</tspan></text>
+<rect x="1170" y="392" width="398" height="126" rx="12" fill="#F0ECF8" stroke="#6B5B95" stroke-width="2" stroke-dasharray="7 5"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="14" font-weight="500" fill="#1E2A35"><tspan x="1369.0" y="443.0">Boundary: a device-sharing handoff is not proof</tspan><tspan x="1369.0" y="460.0">of delivery. Verify delivery in the selected app</tspan><tspan x="1369.0" y="477.0">when needed.</tspan></text>
+<rect x="804" y="406" width="316" height="98" rx="12" fill="#FFFDF7" stroke="#C98A16" stroke-width="2" stroke-dasharray="7 5"/><text text-anchor="middle" font-family="Aptos, Arial, sans-serif" font-size="13" font-weight="500" fill="#1E2A35"><tspan x="962.0" y="444.0">Control: locked First Calls are read-only.</tspan><tspan x="962.0" y="460.0">Only the Case Owner may reopen or perform</tspan><tspan x="962.0" y="476.0">owner-only final actions.</tspan></text>
+<text text-anchor="start" font-family="Aptos, Arial, sans-serif" font-size="11" font-weight="500" fill="#5C6873"><tspan x="40" y="1051.0">Source: First Call business requirements and Create and share a First Call summary | Version 1.0 | 2026-09-03</tspan></text>
+</svg>

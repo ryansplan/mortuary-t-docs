@@ -47,6 +47,7 @@ nav:
   - Business analysis:
       - Artifact index: business-analysis/index.md
       - First Call requirements: business-analysis/first-call-requirements.md
+      - First Call swimlane: business-analysis/first-call-swimlane.md
       - Requirements traceability: business-analysis/first-call-traceability.md
       - UAT plan and results: business-analysis/first-call-uat.md
   - Documentation quality:
