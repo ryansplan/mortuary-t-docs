@@ -138,5 +138,6 @@ this scope.
 
 ## Related artifacts
 
+- [First Call cross-functional workflow](first-call-swimlane.md)
 - [First Call requirements traceability](first-call-traceability.md)
 - [First Call UAT plan and results](first-call-uat.md)
