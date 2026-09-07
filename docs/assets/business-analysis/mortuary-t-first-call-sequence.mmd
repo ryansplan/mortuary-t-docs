@@ -1,0 +1,46 @@
+sequenceDiagram
+    actor Owner as Case Owner
+    box Mortuary T responsibility
+    participant App as Mortuary T
+    participant Record as Compliance record
+    end
+    box Outside Mortuary T
+    participant Share as Device sharing options / selected app
+    end
+    Note over Owner,Record: Precondition: active Case Ref, authorized Case Owner, editable First Call
+    Owner->>App: Enter available First Call details
+    App-->>Owner: Display case-linked summary
+    opt Correction needed
+        Owner->>App: Edit First Call, correct details
+        App-->>Owner: Display corrected summary
+    end
+    Note over Owner,App: Optional recipient entry is for the compliance log only
+    Owner->>App: Save & Share First Call Summary
+    App-->>Owner: Save First Call & Open Share Options
+    alt Cancel confirmation
+        Owner->>App: Cancel
+        App-->>Owner: Return to summary
+        Note over App,Record: No completed save or external handoff
+    else Continue confirmation
+        Owner->>App: Continue
+        App->>Record: Save First Call associated with active Case Ref
+        Record-->>App: Save completed (logical result)
+        Note over App,Record: Save precedes the external handoff
+        App->>Share: Open sharing options with First Call summary
+        alt Proceed in selected app
+            Owner->>Share: Choose actual recipient, perform send action
+            Note over Owner,Share: Sending and delivery are controlled by the selected app
+        else Cancel or leave external sharing
+            Owner->>Share: Cancel or leave without sending
+        end
+        Note over Record,Share: Saved record remains in either path
+        Owner->>App: Return to Mortuary T
+        App-->>Owner: Share Action Completed
+        Owner->>App: OK
+        Note over App,Share: Handoff status is not delivery confirmation
+        App-->>Owner: First Call Needs Review, case Current
+        Owner->>App: View in Compliance
+        App->>Record: Access saved First Call for matching Case Ref
+        Record-->>App: Saved First Call (logical result)
+        App-->>Owner: Display saved record for verification
+    end

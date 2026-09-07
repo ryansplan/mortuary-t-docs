@@ -72,6 +72,7 @@ Owner then uses **View in Compliance** to verify the saved First Call.
 
 ## Related artifacts
 
+- [First Call UML sequence diagram](first-call-sequence.md)
 - [Create and share a First Call summary](../getting-started/index.md)
 - [First Call business requirements](first-call-requirements.md)
 - [First Call requirements traceability](first-call-traceability.md)

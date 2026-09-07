@@ -21,7 +21,7 @@ workflow modeling, user acceptance testing, and release readiness.
 | Getting-started guide | User-centered technical writing | Complete |
 | Sanitized API example | API reference and developer guidance | Planned |
 | Business-process flow | Process analysis and stakeholder communication | Complete |
-| UML sequence diagram | System behavior and technical analysis | Planned |
+| [UML sequence diagram](business-analysis/first-call-sequence.md) | System behavior and technical analysis | Complete |
 | Requirements and UAT package | Traceability and release validation | Complete |
 
 ## Scope boundary
