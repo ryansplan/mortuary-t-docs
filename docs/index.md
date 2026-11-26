@@ -22,6 +22,7 @@ docs-as-code workflow.
 
 ## Start exploring
 
+- [Download the First Call Quick Start (PDF)](assets/mortuary-t-first-call-quick-start.pdf).
 - Read the [portfolio overview](portfolio-overview.md).
 - Review the [documentation quality workflow](quality/index.md).
 - See how proposed changes move through [contribution and review](contributing.md).
